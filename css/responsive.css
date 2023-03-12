@@ -1,13 +1,27 @@
 @media only screen and (max-width: 991px) {
-    .fir_create_btr_des{
-        margin-top: 60px;
-        margin-bottom: 60px;
-      }
+  .sec_heading{
+    font-size: 45px;
+  }
+  .btn_button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .ten_user_card_sec .btn_button{
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+  }
+  .fifth_cont_card h5{
+    font-size: 18px;
+  }
+  .nine_cont_card{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
       .fir_create_btr_des .sec_tit_1{
         padding-bottom: 50px;
      }
      .fir_create_btr_des .sec_tit_1 h1{
-       font-size: 45px;
        margin-bottom: 20px;
      }
      .fir_create_btr_des .sec_tit_1 p{
@@ -51,6 +65,9 @@
         font-size: 15px;
         padding-bottom: 35px;
       }
+      .four_calan_land_page{
+        padding: 60px 0;
+      }
       .four_calan_land_page .four_items img{
         margin-bottom: 18px;
       }
@@ -74,17 +91,41 @@
       .fifteen_quote_sec .fourteen_bitmap{ 
         margin-bottom: 60px;
       }
+      .shopping_card{
+        padding: 20px;
+      }
 }
 @media only screen and (max-width: 767px) {
-    .fir_create_btr_des{
-        margin-top: 50px;
-        margin-bottom: 50px;
-      }
+  /* common  */
+  .sec_space{
+    /* padding: 40px 0; */
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
+  .margin_bottom{
+    margin-bottom: 40px;
+  }
+  .margin_bottom_half{
+    margin-bottom: 20px;
+  }
+  .eight_image_sec{
+    margin-top: 40px;
+  }
+  .sec_space_bg{
+    padding-bottom: 40px;
+  }
+  .sec_heading{
+    font-size: 35px;
+  }
+  .btn_button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .shopping_card_left{
+    padding: 20px;
+  }
       .fir_create_btr_des .sec_tit_1{
         padding-bottom: 40px;
-     }
-     .fir_create_btr_des .sec_tit_1 h1{
-       font-size: 35px;
      }
      .fir_create_btr_des .sec_tit_1 p{
        font-size: 15px;
@@ -99,6 +140,9 @@
        font-size: 14px;
        padding: 12px 40px;
      }
+     .four_calan_land_page{
+      padding: 50px 0;
+    }
      .four_calan_land_page .four_items img{
         margin-bottom: 13px;
       }
@@ -125,17 +169,54 @@
       .fifteen_quote_sec .fourteen_bitmap{ 
         margin-bottom: 50px;
       }
+      .box_border .box_cont p{
+        font-size: 14px;
+       }
+       .side_client_avatar{
+        width: 50px;
+        height: 50px;
+      }
+      .center_client_avatar{
+        width: 80px;
+        height: 80px;
+      }
+      .sixteen_quote_sec h2, .seventeen_quote_sec h3, .nineteen_client_cont h3{
+        font-size: 22px !important;
+      }
+      .sixteen_quote_sec h5, .seventeen_quote_sec h5, .eighteen_client_page h5, .nineteen_client_cont h5, .instra_box span, .ten_user_card_sec h5, .fifth_cont_card h5{
+        font-size: 18px !important;
+      }
+      .sixteen_quote_sec p, .seventeen_quote_sec .box_border p, .eighteen_client_page p, .nineteen_client_cont p, .fifth_btr_des_card button, .ten_user_card_sec h6, .fifth_cont_card p{
+        font-size: 15px !important;
+      }
+       .nineteen_client_cont h5{
+        font-size: 16px;
+       }
+       .nineteen_client_cont p{
+        font-size: 14px;
+       }
+       .nine_cont_card{
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .four_calan_land_page .btn_button{
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 40px;
+      }
+      .twenty_landing_sec button{
+        margin-top: 40px;
+      }
+      .twenty_landing_sec ul li p span{
+        font-size: 15px;
+      }
 }
 @media only screen and (max-width: 575px) {
-    .fir_create_btr_des{
-        margin-top: 40px;
-        margin-bottom: 40px;
-      }
+  .sec_heading{
+    font-size: 26px;
+  }
       .fir_create_btr_des .sec_tit_1{
         padding-bottom: 30px;
-     }
-     .fir_create_btr_des .sec_tit_1 h1{
-       font-size: 30px;
      }
      .fir_create_btr_des .sec_tit_1 p{
        font-size: 14px;
@@ -153,6 +234,9 @@
      .sec_out_prod_des .sec_showcase{
         padding: 10px 0 6px 0;
       }
+      .four_calan_land_page{
+        padding: 40px 0;
+      }
       .fourteen_quote_sec .quote_des h3{
         font-size: 17px;
       }
@@ -161,7 +245,7 @@
         padding: 20px 0 6px 0;
       }
 }
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     .fir_create_btr_des{
         margin-top: 30px;
         margin-bottom: 30px;
@@ -217,7 +301,4 @@
       .fourteen_quote_sec .quote_des h4{
         padding: 15px 0 5px 0;
       }
-}
-@media only screen and (max-width: 350px) {
-    
-}
+} */

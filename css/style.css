@@ -8,6 +8,11 @@
 /* font  */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
+/* p/m-1 = 4, p/m-2 = 8, p/m-3 = 16, p/m-4 = 24, p/m-5 = 48  */
+/* common  */
+/* font color primary --> #12022F */
+/* font color secondary --> #594D6D */
+
 * {
   padding: 0;
   margin: 0;
@@ -18,20 +23,73 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li{
   margin: 0;
   padding: 0;
 }
-
-/* 1st section style */
-.fir_create_btr_des{
-  text-decoration: underline;
+.sec_bg_purple{
+  background-color: #391484;
+}
+.sec_space{
+  /* padding: 80px 0; */
   padding-top: 80px;
+  margin-bottom: 40px;
+}
+.sec_space_bg{
   padding-bottom: 80px;
 }
+.margin_bottom{
+  margin-bottom: 80px;
+}
+.margin_bottom_half{
+  margin-bottom: 40px;
+}
+.cont_width_box{
+  max-width: 730px;
+}
+.cont_width_box_product p{
+  max-width: 600px;
+  margin: auto;
+}
+.font_primary{
+  color: #12022F;
+}
+.font_purple{
+  color: #391484;
+}
+.font_yellow{
+  color: 
+  #FFDDA9;
+}
+p{
+  color: #594D6D;
+}
+.sec_heading{
+  font-size: 48px;
+}
+.btn_button{
+  border: 2px solid #E7E5EA;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.btn_button_small{
+  border: 2px solid #E7E5EA;
+  padding: 12px 84px;
+}
+.btn_product{
+  border: 2px solid #E7E5EA;
+  padding: 12px 55px;
+  font-size: 14px;
+}
+.btn_button:hover, .btn_button_small:hover, .btn_product:hover{
+  border: 2px solid #FFDDA9;
+  background-color: #FFDDA9;
+}
+.letter_spacing{
+  letter-spacing: 4px;
+}
+/* 1st section style */
 .fir_create_btr_des .sec_tit_1{
-   max-width: 730px;
    padding-bottom: 80px;
    margin: auto;
 }
 .fir_create_btr_des .sec_tit_1 h1{
-  font-size: 48px;
   color: var(--primary-color);
   font-weight: 700;
   margin-bottom: 40px;
@@ -65,7 +123,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li{
   font-size: 16px;
   color: var(--primary-color);
   font-weight: 700;
-  text-decoration: underline;
   padding: 15px 70px;
   border: 2px solid var(--border-color);
   border-radius: 28px;
@@ -104,7 +161,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li{
 }
 /* 4th section style  */
 .four_calan_land_page{
-  background-color: var(--sec-bg);
   color: #fff;
 }
 .four_calan_land_page .sec_tit_1 h1, .four_calan_land_page .sec_tit_1 p, .four_calan_land_page button {
@@ -113,11 +169,82 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li{
 .four_calan_land_page .four_items img{
   margin-bottom: 30px;
 }
+.four_calan_land_page .btn_button{
+  padding-left: 145px;
+  padding-right: 145px;
+  margin-top: 80px;
+}
+
+/* 5th section style  */
+.fifth_cont_card{
+  background-color: #fff;
+}
+
+/* 6th section style  */
+.sixth_ux_ui_sec .btn_button, .nine_landing_sec .btn_button{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+/* eight section style  */
+.eight_image_sec{
+  margin-top: 80px;
+}
+.eight_image_sec{
+  position: relative;
+}
+.instra_box{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 9th section style  */
+.nine_cont_card{
+  border: 2px solid #E7E5EA;
+  padding-left: 68px;
+  padding-right: 68px;
+}
+
+/* 10th section style  */
+.ten_user_card_sec .btn_button{
+  padding-left: 68px;
+  padding-right: 68px;
+  font-size: 16px;
+}
+.fifth_cont_card h6{
+  font-size: 14px;
+}
+.fifth_cont_card{
+  border: 2px solid#E7E5EA;
+}
+
+/* 11th section style  */
+.ele_ecommerce_sec_1 .btn_button{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* 12th section style  */
+.shopping_card{
+  background-color: #F5F5F5;
+  padding: 40px;
+  border-radius: 32px;
+}
+.shopping_card_left{
+  background-color: #F5F5F5;
+  padding: 40px;
+  border-radius: 32px;
+}
+.nine_landing_sec .row{
+  height: 100%;
+} 
+.nine_landing_sec .col-md-6{
+  height: 100%;
+}
 
 /* 14th section style  */
-.fourteen_quote_sec{
-  margin: 80px 0;
-}
 .fourteen_quote_sec .quote_sec{
   border: 2px solid var(--border-color);
   padding: 80px 0;
@@ -125,7 +252,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li{
 }
 .fourteen_quote_sec .quote_des{
   margin: auto;
-  max-width: 730px;
 }
 .fourteen_quote_sec .quote_des h3{
   font-size: 24px;
@@ -143,12 +269,36 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li{
   font-size: 14px;
   color: var(--secondary-color);
 }
-.fifteen_quote_sec .fourteen_bitmap{ 
-  margin-bottom: 80px;
-}
-.fifteen_quote_sec .sec_line{
+.sec_line{
   width: 100%;
   height: 1px;
-  background-color: var(--border-color);
-  margin: 0px 0 25px 0;
+  background-color: #E7E5EA;
+  margin: 80px 0
+}
+ /* 17 section style  */
+ .box_border{
+    border: 2px solid #E7E5EA;
+    border-radius: 32px;
+ }
+/* 18 section style  */
+/* 19 section style  */
+.side_client_avatar{
+  opacity: 20%;
+  width: 65px;
+  height: 65px;
+}
+.center_client_avatar{
+  width: 95px;
+  height: 95px;
+}
+/* 20th section style  */
+.twenty_landing_sec button{
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-top: 80px;
+}
+.twenty1_beauty_sec{
+  background-image: url(./../img/sec_bg_211.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
