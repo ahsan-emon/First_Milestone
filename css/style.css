@@ -68,6 +68,12 @@ p{
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.btn_button_purple_bg{
+  color: #fff;
+}
+.btn_button_purple_bg:hover{
+  color: #12022F;
+}
 .btn_button_small{
   border: 2px solid #E7E5EA;
   padding: 12px 84px;
@@ -301,4 +307,44 @@ p{
   background-image: url(./../img/sec_bg_211.png);
   background-position: center;
   background-repeat: no-repeat;
+  /* position: relative; */
+}
+.twenty1_beauty_sec .twenty1_title{
+  padding-bottom: 550px;
+}
+.twenty1_beauty_sec .img_box{
+  position: relative;
+}
+.box_img_border{
+  display: inline-block;
+  border: 2px solid #FFFFFF10;
+  border-radius: 72px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.box_img1{
+  position: absolute;
+  left: 40%;
+  bottom: 0%;
+  transform: translateX(-50%);
+  display: inline-block;
+  border: 2px solid #FFFFFF10;
+  border-radius: 35px;
+  padding: 30px;
+  padding-bottom: 0;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.box_img2{
+  position: absolute;
+  left: 60%;
+  bottom: 0%;
+  transform: translateX(-50%);
+}
+.twenty3_landing_sec .title_width{
+  width: 80%;
 }

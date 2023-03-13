@@ -1,3 +1,36 @@
+@media only screen and (min-width: 1900px) {
+  .box_img1{
+    position: absolute;
+    left: 43%;
+  }
+  .box_img2{
+    position: absolute;
+    left: 57%;
+  }
+  .twenty3_landing_sec h1{
+    max-width: 55%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .twenty3_landing_sec h1{
+    max-width: 55%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .twenty3_landing_sec h1{
+    max-width: 66%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .twenty3_landing_sec h1{
+    max-width: 74%;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .img_width img{
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 991px) {
   .sec_heading{
     font-size: 45px;
@@ -93,6 +126,12 @@
       }
       .shopping_card{
         padding: 20px;
+      }
+      .twenty3_landing_sec h1{
+        max-width: 90%;
+      }
+      .twenty4_landing_sec .margin_bottom{
+        margin-bottom: 30px;
       }
 }
 @media only screen and (max-width: 767px) {
@@ -210,10 +249,19 @@
       .twenty_landing_sec ul li p span{
         font-size: 15px;
       }
+      .twenty1_beauty_sec .twenty1_title{
+        padding-bottom: 450px;
+      }
+      .twenty3_landing_sec .title_width{
+        width: 100%;
+      }
 }
 @media only screen and (max-width: 575px) {
   .sec_heading{
     font-size: 26px;
+  }
+  .twenty1_beauty_sec .twenty1_title{
+    padding-bottom: 300px;
   }
       .fir_create_btr_des .sec_tit_1{
         padding-bottom: 30px;
