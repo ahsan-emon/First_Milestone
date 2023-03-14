@@ -411,3 +411,9 @@ border-radius: 32px;
   border: 1px solid #391484;
   background-color: #39148405;
 }
+/* 28th section styel  */
+.icon_border{
+  border: 2px solid #E7E5EA;
+  border-radius: 20px;
+  padding: 28px;
+}

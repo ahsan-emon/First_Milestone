@@ -305,4 +305,8 @@
       .instra_box span{
         font-size: 14px!important;
       }
+      .icon_border{
+        border-radius: 20px;
+        padding: 20px;
+      }
 }
