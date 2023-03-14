@@ -1,18 +1,7 @@
-:root {
-  --primary-color: #12022F;
-  --secondary-color: #594D6D;
-  --border-color: #E7E5EA;
-  --btn-hover-bg: #FFDDA9;
-  --sec-bg: #391484;
-}
 /* font  */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
-/* p/m-1 = 4, p/m-2 = 8, p/m-3 = 16, p/m-4 = 24, p/m-5 = 48  */
 /* common  */
-/* font color primary --> #12022F */
-/* font color secondary --> #594D6D */
-
 * {
   padding: 0;
   margin: 0;
@@ -27,12 +16,13 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li{
   background-color: #391484;
 }
 .sec_space{
-  /* padding: 80px 0; */
-  padding-top: 80px;
-  margin-bottom: 40px;
+  margin: 80px 0;
 }
 .sec_space_bg{
-  padding-bottom: 80px;
+  padding: 80px 0;
+}
+.sec_upper_padding{
+  padding-top: 80px;
 }
 .margin_bottom{
   margin-bottom: 80px;
@@ -43,9 +33,11 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li{
 .cont_width_box{
   max-width: 730px;
 }
-.cont_width_box_product p{
-  max-width: 600px;
-  margin: auto;
+.cont_width_box_medium{
+  max-width: 540px;
+}
+.cont_width_box_small{
+  max-width: 470px;
 }
 .font_primary{
   color: #12022F;
@@ -70,6 +62,21 @@ p{
 }
 .btn_button_purple_bg{
   color: #fff;
+}
+.img_border_round{
+  border-radius: 32px;
+}
+.img_border_upper_round{
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}
+.avatar_circle{
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+.img_border_round_small{
+  border-radius: 24px;
 }
 .btn_button_purple_bg:hover{
   color: #12022F;
@@ -96,28 +103,28 @@ p{
    margin: auto;
 }
 .fir_create_btr_des .sec_tit_1 h1{
-  color: var(--primary-color);
+  color: #12022F;
   font-weight: 700;
   margin-bottom: 40px;
 }
 .fir_create_btr_des .sec_tit_1 p{
   font-size: 18px;
-  color: var(--secondary-color);
+  color: #594D6D;
 }
 .fir_create_btr_des .fir_sec_cont .fir_days{
   font-size: 14px;
-  color: var(--secondary-color);
+  color: #594D6D;
   padding-top: 32px;
 }
 .fir_create_btr_des .fir_sec_cont h3{
   font-size: 22px;
-  color: var(--primary-color);
+  color: #12022F;
   font-weight: 700;
   padding: 16px 0;
 }
 .fir_create_btr_des .fir_sec_cont .fir_cont_desc{
   font-size: 16px;
-  color: var(--secondary-color);
+  color: #594D6D;
 }
 .fir_create_btr_des .fir_sec_btn{
   margin-top: 80px;
@@ -127,17 +134,18 @@ p{
 }
 .fir_create_btr_des .fir_sec_btn button{
   font-size: 16px;
-  color: var(--primary-color);
+  color: #12022F;
   font-weight: 700;
   padding: 15px 70px;
-  border: 2px solid var(--border-color);
+  border: 2px solid #E7E5EA;
   border-radius: 28px;
 }
 .fir_create_btr_des .fir_sec_btn button:active{
-  border: 2px solid var(--border-color);
+  border: 2px solid #E7E5EA;
 }
 .fir_create_btr_des .fir_sec_btn button:hover{
-  background-color: var(--btn-hover-bg);
+  background-color: #FFDDA9;
+  border: 2px solid #FFDDA9;
 }
 
 /* 2nd section style  */
@@ -150,19 +158,19 @@ p{
 
 /* 3rd section style  */
 .third_out_prod_des .third_sec_cont{
-  border: 2px solid var(--border-color);
+  border: 2px solid #E7E5EA;
   border-radius: 32px;
   padding: 0 65px;
 }
 .third_out_prod_des .third_sec_cont h3{
   font-size: 22px;
-  color: var(--primary-color);
+  color: #12022F;
   font-weight: 700;
   padding: 48px 0 24px 0;
 }
 .third_out_prod_des .third_sec_cont p{
   font-size: 16px;
-  color: var(--secondary-color);
+  color: #594D6D;
   padding-bottom: 48px;
 }
 /* 4th section style  */
@@ -192,6 +200,27 @@ p{
   padding-right: 70px;
 }
 
+/* 7th section style  */
+.seven_last_work .btn_button{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* .twenty9_des_comp_sec .owl-stage-outer .owl-stage .owl-item.active.center .slide_card{ */
+.seven_last_work{
+  overflow: hidden;
+}
+.seven_last_work .owl-stage-outer{
+  overflow: visible;
+}
+.seven_last_work .owl-stage-outer .owl-stage .owl-item.cloned{
+  opacity: .5;
+}
+.seven_last_work .owl-stage-outer .owl-stage .owl-item .item .img_slider_cont{
+  display: none;
+}
+.seven_last_work .owl-stage-outer .owl-stage .owl-item.active.center .item .img_slider_cont{
+  display: block;
+}
 /* eight section style  */
 .eight_image_sec{
   margin-top: 80px;
@@ -243,16 +272,10 @@ p{
   padding: 40px;
   border-radius: 32px;
 }
-.nine_landing_sec .row{
-  height: 100%;
-} 
-.nine_landing_sec .col-md-6{
-  height: 100%;
-}
 
 /* 14th section style  */
 .fourteen_quote_sec .quote_sec{
-  border: 2px solid var(--border-color);
+  border: 2px solid #E7E5EA;
   padding: 80px 0;
   border-radius: 32px;
 }
@@ -261,19 +284,19 @@ p{
 }
 .fourteen_quote_sec .quote_des h3{
   font-size: 24px;
-  color: var(--primary-color);
+  color: #12022F;
   font-weight: 700;
   padding: 55px 0 65px 0;
 }
 .fourteen_quote_sec .quote_des h4{
   font-size: 22px;
-  color: var(--primary-color);
+  color: #12022F;
   font-weight: 700;
   padding: 24px 0 8px 0;
 }
 .fourteen_quote_sec .quote_des p{
   font-size: 14px;
-  color: var(--secondary-color);
+  color: #594D6D;
 }
 .sec_line{
   width: 100%;
@@ -305,9 +328,10 @@ p{
 }
 .twenty1_beauty_sec{
   background-image: url(./../img/sec_bg_211.png);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* position: relative; */
+  background: linear-gradient(rgba(18, 2, 47, 0.5));
 }
 .twenty1_beauty_sec .twenty1_title{
   padding-bottom: 550px;
@@ -345,8 +369,11 @@ p{
   bottom: 0%;
   transform: translateX(-50%);
 }
-.twenty3_landing_sec .title_width{
-  width: 80%;
+.twenty3_landing_sec .cont_width_box_medium{
+  max-width: 430px;
+}
+.twenty4_landing_sec .cont_width_box_medium{
+  max-width: 500px;
 }
 .twenty6_product_sec .cont_width_box{
   max-width: 750px;
@@ -360,4 +387,27 @@ p{
   padding: 32px;
   border: 2px solid #FFFFFF10;
 border-radius: 32px;
+}
+/* 27th syle start  */
+.slide_card{
+  border: 1px solid #E7E5EA;
+  border-radius: 32px;
+  padding: 60px 32px;
+}
+.slide_card img{
+  width: auto!important;
+  margin: auto;
+}
+.twenty7_des_comp_sec{
+  overflow: hidden;
+}
+.twenty9_des_comp_sec .container-fluid{
+  padding: 0;
+}
+.twenty7_des_comp_sec .owl-stage-outer{
+  overflow: visible;
+}
+.twenty7_des_comp_sec .owl-stage-outer .owl-stage .owl-item.active.center .slide_card{
+  border: 1px solid #391484;
+  background-color: #39148405;
 }
