@@ -1,3 +1,29 @@
+@media only screen and (min-width: 991px) {
+  .img_width img{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .twenty3_landing_sec h1{
+    max-width: 74%;
+  }
+  .twenty5_landing_sec h1{
+    font-size: 45px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .twenty3_landing_sec h1{
+    max-width: 66%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .twenty3_landing_sec h1{
+    max-width: 55%;
+  }
+  .twenty5_landing_sec h1{
+    max-width: 70%;
+  }
+}
 @media only screen and (min-width: 1900px) {
   .box_img1{
     position: absolute;
@@ -7,33 +33,13 @@
     position: absolute;
     left: 57%;
   }
-  .twenty3_landing_sec h1{
-    max-width: 55%;
-  }
 }
-@media only screen and (min-width: 1400px) {
-  .twenty3_landing_sec h1{
-    max-width: 55%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .twenty3_landing_sec h1{
-    max-width: 66%;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  .twenty3_landing_sec h1{
-    max-width: 74%;
-  }
-}
-@media only screen and (min-width: 991px) {
-  .img_width img{
-    width: 100%;
-  }
-}
+
+
+
 @media only screen and (max-width: 991px) {
   .sec_heading{
-    font-size: 45px;
+    font-size: 42px;
   }
   .btn_button{
     padding-top: 12px;
@@ -154,7 +160,7 @@
     padding-bottom: 40px;
   }
   .sec_heading{
-    font-size: 35px;
+    font-size: 32px;
   }
   .btn_button{
     padding-top: 10px;
@@ -255,6 +261,11 @@
       .twenty3_landing_sec .title_width{
         width: 100%;
       }
+      .twenty7_product_sec .cont_width_box_product button{
+        margin-top: 60px;
+        padding-left: 70px;
+        padding-right: 70px;
+      }
 }
 @media only screen and (max-width: 575px) {
   .sec_heading{
@@ -292,61 +303,8 @@
         font-size: 15px;
         padding: 20px 0 6px 0;
       }
+      .twenty7_product_sec .cont_width_box_product button{
+        padding-left: 55px;
+        padding-right: 55px;
+      }
 }
-/* @media only screen and (max-width: 400px) {
-    .fir_create_btr_des{
-        margin-top: 30px;
-        margin-bottom: 30px;
-      }
-      .fir_create_btr_des .sec_tit_1{
-        padding-bottom: 20px;
-     }
-     .fir_create_btr_des .sec_tit_1 h1{
-       font-size: 20px;
-     }
-     .fir_create_btr_des .sec_tit_1 p{
-       font-size: 13px;
-     }
-     .fir_create_btr_des .fir_sec_cont .fir_days{
-        font-size: 13px;
-        padding-top: 15px;
-      }
-      .fir_create_btr_des .fir_sec_cont h3{
-        font-size: 14px;
-        padding: 7px 0;
-      }
-      .fir_create_btr_des .fir_sec_cont .fir_cont_desc{
-        font-size: 13px;
-      }
-     .fir_create_btr_des .fir_sec_btn{
-       margin-top: 20px;
-     }
-     .sec_out_prod_des .sec_showcase{
-        padding: 10px 0 5px 0;
-      }
-      .sec_out_prod_des .sec_sec_cont h3{
-        padding: 0;
-      }
-      .third_out_prod_des .third_sec_cont{
-        padding: 0 20px;
-        border-radius: 25px;
-      }
-      .third_out_prod_des .third_sec_cont h3{
-        font-size: 18px;
-        padding: 30px 0 10px 0;
-      }
-      .third_out_prod_des .third_sec_cont p{
-        font-size: 14px;
-        padding-bottom: 30px;
-      }
-      .fourteen_quote_sec .quote_des{
-        padding: 0 10px;
-      }
-      .fourteen_quote_sec .quote_des h3{
-        font-size: 16px;
-        padding: 25px 0 30px 0;
-      }
-      .fourteen_quote_sec .quote_des h4{
-        padding: 15px 0 5px 0;
-      }
-} */

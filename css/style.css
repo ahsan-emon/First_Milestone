@@ -348,3 +348,16 @@ p{
 .twenty3_landing_sec .title_width{
   width: 80%;
 }
+.twenty6_product_sec .cont_width_box{
+  max-width: 750px;
+}
+.twenty7_product_sec .cont_width_box_product button{
+  margin-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.twenty29_des_cont{
+  padding: 32px;
+  border: 2px solid #FFFFFF10;
+border-radius: 32px;
+}
