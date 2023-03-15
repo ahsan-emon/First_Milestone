@@ -131,6 +131,9 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    .template_list ul li p{
+      font-size: 13px;
+    }
 }
 @media only screen and (max-width: 767px) {
   /* common  */
@@ -247,9 +250,6 @@
       .twenty_landing_sec ul li p span{
         font-size: 15px;
       }
-      .twenty1_beauty_sec .twenty1_title{
-        padding-bottom: 450px;
-      }
       .twenty3_landing_sec .title_width{
         width: 100%;
       }
@@ -262,9 +262,6 @@
 @media only screen and (max-width: 575px) {
   .sec_heading{
     font-size: 26px;
-  }
-  .twenty1_beauty_sec .twenty1_title{
-    padding-bottom: 300px;
   }
       .fir_create_btr_des .sec_tit_1{
         padding-bottom: 30px;
