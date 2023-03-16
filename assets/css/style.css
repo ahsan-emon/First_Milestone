@@ -200,14 +200,17 @@ p{
 .seven_last_work .owl-stage-outer{
   overflow: visible;
 }
-.seven_last_work .owl-stage-outer .owl-stage .owl-item.cloned{
+.seven_last_work .owl-stage-outer .owl-stage .owl-item.cloned, .seven_last_work .owl-stage-outer .owl-stage .owl-item{
   opacity: .5;
 }
 .seven_last_work .owl-stage-outer .owl-stage .owl-item .item .img_slider_cont{
   display: none;
 }
-.seven_last_work .owl-stage-outer .owl-stage .owl-item.active.center .item .img_slider_cont{
+.seven_last_work .owl-stage-outer .owl-stage .owl-item.center .item .img_slider_cont{
   display: block;
+}
+.seven_last_work .owl-stage-outer .owl-stage .owl-item.center{
+  opacity: 1;
 }
 /* eight section style  */
 .eight_image_sec{
