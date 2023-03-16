@@ -4,17 +4,6 @@
   }
 }
 
-@media only screen and (min-width: 1900px) {
-  .box_img1{
-    position: absolute;
-    left: 43%;
-  }
-  .box_img2{
-    position: absolute;
-    left: 57%;
-  }
-}
-
 @media only screen and (max-width: 991px) {
   .sec_heading{
     font-size: 42px;
@@ -48,7 +37,7 @@
       .fir_create_btr_des .sec_tit_1{
         padding-bottom: 50px;
      }
-     .fir_create_btr_des .sec_tit_1 h1{
+     .fir_create_btr_des .sec_tit_1 h2{
        margin-bottom: 20px;
      }
      .fir_create_btr_des .sec_tit_1 p{
@@ -138,7 +127,7 @@
 @media only screen and (max-width: 767px) {
   /* common  */
   .sec_space{
-    margin: 50px 0;
+    padding: 50px 0;
   }
   .margin_bottom{
     margin-bottom: 40px;
@@ -150,7 +139,10 @@
     margin-top: 40px;
   }
   .sec_space_bg{
-    padding: 50px 0;
+    margin: 50px 0;
+  }
+  .sec_space_bg_up{
+    padding-top: 50px;
   }
   .sec_heading{
     font-size: 32px;
@@ -210,13 +202,15 @@
       .box_border .box_cont p{
         font-size: 14px;
        }
-       .side_client_avatar{
-        width: 50px;
-        height: 50px;
-      }
-      .center_client_avatar{
+       .nineteen_client_sec .client_img.active .avatar_circle{
         width: 80px;
         height: 80px;
+        opacity: 1;
+      }
+      .nineteen_client_sec .client_img .avatar_circle{
+        width: 50px;
+        height: 50px;
+        opacity: 20%;
       }
       .sixteen_quote_sec h2, .seventeen_quote_sec h3, .nineteen_client_cont h3{
         font-size: 22px !important;
@@ -256,6 +250,10 @@
         padding-left: 70px;
         padding-right: 70px;
       }
+      .sixth_ux_ui_sec .btn_button, .nine_landing_sec .btn_button {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 @media only screen and (max-width: 575px) {
   .sec_heading{
