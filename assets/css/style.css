@@ -61,9 +61,6 @@ p{
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.btn_button_purple_bg{
-  color: #fff;
-}
 .img_border_round{
   border-radius: 32px;
 }
@@ -144,9 +141,6 @@ p{
 .sec_out_prod_des .sec_showcase{
   padding: 32px 0 8px 0;
 }
-.sec_out_prod_des .sec_sec_cont h3{
-  padding: 0;
-}
 
 /* 3rd section style  */
 .third_out_prod_des .third_sec_cont{
@@ -162,12 +156,6 @@ p{
   padding-bottom: 48px;
 }
 /* 4th section style  */
-.four_calan_land_page{
-  color: #fff;
-}
-.four_calan_land_page .sec_tit_1 h2, .four_calan_land_page .sec_tit_1 p, .four_calan_land_page button {
-  color: #fff;
-}
 .four_calan_land_page .four_items img{
   margin-bottom: 30px;
 }
@@ -175,11 +163,6 @@ p{
   padding-left: 145px;
   padding-right: 145px;
   margin-top: 80px;
-}
-
-/* 5th section style  */
-.fifth_cont_card{
-  background-color: #fff;
 }
 
 /* 6th section style  */
@@ -199,9 +182,6 @@ p{
   padding-right: 100px;
 }
 /* .twenty9_des_comp_sec .owl-stage-outer .owl-stage .owl-item.active.center .slide_card{ */
-.seven_last_work{
-  overflow: hidden;
-}
 .seven_last_work .owl-stage-outer{
   overflow: visible;
 }
@@ -270,9 +250,6 @@ p{
   border: 2px solid #E7E5EA;
   padding: 80px 0;
   border-radius: 32px;
-}
-.fourteen_quote_sec .quote_des{
-  margin: auto;
 }
 .fourteen_quote_sec .quote_des h3{
   font-size: 24px;
@@ -362,12 +339,6 @@ border-radius: 32px;
 .slide_card img{
   width: auto!important;
   margin: auto;
-}
-.twenty7_des_comp_sec{
-  overflow: hidden;
-}
-.twenty9_des_comp_sec .container-fluid{
-  padding: 0;
 }
 .twenty7_des_comp_sec .owl-stage-outer{
   overflow: visible;
