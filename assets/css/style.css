@@ -187,7 +187,12 @@ p{
   padding-left: 70px;
   padding-right: 70px;
 }
-
+.sixth_ux_ui_sec .img_right_margin{
+  margin-right: 30px;
+}
+.sixth_ux_ui_sec .img_bottom_margin{
+  margin-bottom: 30px;
+}
 /* 7th section style  */
 .seven_last_work .btn_button{
   padding-left: 100px;
@@ -308,6 +313,9 @@ p{
   padding-left: 55px;
   padding-right: 55px;
   margin-top: 80px;
+}
+.twenty_landing_sec ul li p span{
+  font-size: 14px;
 }
 .twenty1_beauty_sec{
   background-image: url(./../img/sec_bg_211.png);

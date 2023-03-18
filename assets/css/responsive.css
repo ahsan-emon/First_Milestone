@@ -239,9 +239,6 @@
       .twenty_landing_sec button{
         margin-top: 40px;
       }
-      .twenty_landing_sec ul li p span{
-        font-size: 15px;
-      }
       .twenty3_landing_sec .title_width{
         width: 100%;
       }
@@ -301,5 +298,8 @@
       .icon_border{
         border-radius: 20px;
         padding: 20px;
+      }
+      .twenty_landing_sec ul li p span{
+        font-size: 12px;
       }
 }
