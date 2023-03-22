@@ -77,7 +77,7 @@ p{
   border-radius: 24px;
 }
 .btn_button_purple_bg:hover{
-  color: #12022F;
+  color: #12022F!important;
 }
 .btn_button_small{
   border: 2px solid #E7E5EA;
@@ -94,6 +94,10 @@ p{
 }
 .letter_spacing{
   letter-spacing: 4px;
+}
+.big_btn{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 /* 1st section style */
 .fir_create_btr_des .sec_tit_1{
