@@ -135,3 +135,44 @@ $(document).ready(function () {
         $("[data-trigger]div").eq(src).addClass("active");
     })
 });
+
+// $('.first_header_slider').owlCarousel({
+//     center: true,
+//     loop: true,
+//     margin: 30,
+//     dots: false,
+//     autoplay: true,
+//     autoplayTimeout: 2000,
+//     autoplayHoverPause: true,
+//     responsive: {
+//         0: {
+//             items: 1,
+//         },
+//     }
+// });
+
+$(document).ready(function () {
+    var owl = $('.first_header_slider');
+    owl.owlCarousel({
+        center: true,
+        loop: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1,
+            }
+        }
+    });
+    $("[data-trigger]").on("click", function () {
+        owl.trigger("to.owl.carousel", index);
+    });
+    owl.on('changed.owl.carousel', function (event) {
+        var current = event.item.index;
+        var src = $(event.target).find(".item").eq(current).attr("data-number");
+        $("div").removeClass("active");
+        $("[data-trigger]div").eq(src).addClass("active");
+    })
+});

@@ -81,7 +81,7 @@ p{
 }
 .btn_button_small{
   border: 2px solid #E7E5EA;
-  padding: 12px 84px;
+  padding: 12px 80px;
 }
 .btn_product{
   border: 2px solid #E7E5EA;
@@ -185,7 +185,6 @@ p{
   padding-left: 100px;
   padding-right: 100px;
 }
-/* .twenty9_des_comp_sec .owl-stage-outer .owl-stage .owl-item.active.center .slide_card{ */
 .seven_last_work .owl-stage-outer{
   overflow: visible;
 }
@@ -360,4 +359,130 @@ border-radius: 32px;
 .owl-carousel .owl-item .quote_sec img, .fourteen_quote_sec .owl-item .quote_des img, .sixteen_quote_sec .owl-item .item img, .seventeen_quote_sec .owl-item .item img, .eighteen_client_page .owl-item .item img{
   display: block;
   width: auto;
+}
+
+/* first site first section style */
+.first_header_s1{
+  background-image: url(./../img/first_sec1_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 99;
+  padding-bottom: 80px;
+}
+.first_header_s1::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #12022F;
+  opacity: 60%;
+  z-index: -1;
+} 
+.sign_up_btn{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.header_img_bar{
+  border-radius: 32px;
+  padding: 30px;
+}
+.header_img_bar img{
+  width: 125px!important;
+  height: 95px;
+  border-radius: 18px;
+}
+.header_bar_cont{
+  margin-right: 30px;
+}
+.first_header_s1 .header_img_bar .check_box .check_content{
+  opacity: 50%;
+}
+.first_header_s1 .header_img_bar .check_box.active .check_content{
+  opacity: 1;
+}
+/* first site 7th section style */
+.simple_plans_box{
+  padding: 40px;
+  border: 2px solid #E7E5EA;
+  border-radius: 32px;
+  height: 100%;
+}
+.simple_plans_center{
+  border: 2px solid #391484;
+}
+/* SWITCH STYLES ––––––––––––––––––––– */
+.switch_wrapper {
+  padding: 4px;
+  border: 1px solid lightgrey;
+  background: #12022f30;
+}
+.switch_wrapper [type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+.switch_wrapper [type="radio"]:checked#monthly ~ label[for="monthly"],
+.switch_wrapper [type="radio"]:checked#yearly ~ label[for="yearly"] {
+  color: #391484;
+}
+.switch_wrapper [type="radio"]:checked#monthly ~ label[for="monthly"]:hover,
+.switch_wrapper [type="radio"]:checked#yearly ~ label[for="yearly"]:hover {
+  background: transparent;
+}
+.switch_wrapper
+  [type="radio"]:checked#monthly
+  + label[for="yearly"]
+  ~ .highlighter {
+  transform: none;
+}
+.switch_wrapper
+  [type="radio"]:checked#yearly
+  + label[for="monthly"]
+  ~ .highlighter {
+  transform: translateX(100%);
+}
+.switch_wrapper label {
+  z-index: 1;
+  min-width: 100px;
+  line-height: 32px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: color 0.25s ease-in-out;
+}
+.switch_wrapper label:hover {
+  background: #fff;
+}
+.switch_wrapper .highlighter {
+  top: 2px;
+  left: 2px;
+  width: calc(50% - 2px);
+  height: calc(100% - 5px);
+  transition: 0.25s all ease-in-out;
+}
+/* quote_first_s8 style  */
+.quote_first_s8 .social_icons ul li{
+  margin-right: 40px;
+}
+.quote_first_s8 .form_send_msg{
+  padding: 40px;
+  border-radius: 32px;
+}
+.quote_first_s8 .form_send_msg form input{
+  background-color: #E7E5EA;
+  padding: 15px 20px;
+}
+.quote_first_s8 .form_send_msg form textarea{
+  border-radius: 28px;
+  padding: 15px 20px;
+  background-color: #E7E5EA;
+}
+.quote_first_s8 .form_send_msg form input::placeholder, .quote_first_s8 .form_send_msg form textarea::placeholder{
+  color: #12022F50;
+}
+/* first footer style  */
+.margin_right{
+  margin-right: 40px;
 }
