@@ -486,3 +486,35 @@ border-radius: 32px;
 .margin_right{
   margin-right: 40px;
 }
+/* second site style start */
+
+/* second site 4th style  */
+.second_landing_design_s4{
+  background-image: url(./../img/second_landing_page_bg_s4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 99;
+}
+.second_landing_design_s4::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #12022F;
+  opacity: 60%;
+  z-index: -1;
+} 
+/* second site 3rd section style  */
+.img_border{
+  border: 2px solid #E7E5EA;
+  border-radius: 72px;
+  padding: 30px;
+}
+.img_border img{
+  border-radius: 48px;
+  box-shadow: 0 16px 32px 0 #12022F10;
+}
