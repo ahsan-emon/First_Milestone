@@ -487,6 +487,9 @@ border-radius: 32px;
   margin-right: 40px;
 }
 /* second site style start */
+.second_header_s1{
+  padding-bottom: 80px;
+}
 
 /* second site 4th style  */
 .second_landing_design_s4{
@@ -517,4 +520,44 @@ border-radius: 32px;
 .img_border img{
   border-radius: 48px;
   box-shadow: 0 16px 32px 0 #12022F10;
+}
+/* second site section 9 style  */
+.icon_box_s9{
+  padding: 27px;
+  display: inline-block;
+  background-color:#3914840c;
+  border-radius: 16px;
+  margin-bottom: 64px;
+}
+.subscribe_form{
+  max-width: 550px;
+}
+.subscribe_form .form_input_field input{
+  padding: 15px 0px 15px 60px;
+}
+.subscribe_form input::placeholder{
+  color: #ffffff60;
+}
+.subscribe_form input:focus{
+  box-shadow: none;
+}
+.subscribe_form .form_input_field{
+  margin-right: 30px;
+}
+.subscribe_form .form_input_field .svg_img{
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer_subscribe_form{
+  margin-bottom: 66px;
+}
+.footer_subscribe_form .form_input_field input::placeholder{
+  color: #12022F50;
+}
+.footer_subscribe_form .form_input_field input{
+  background-color: #E7E5EA50;
+}
+.second_site_s10 .line{
+  color: #E7E5EA;
 }
