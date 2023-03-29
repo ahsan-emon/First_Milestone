@@ -136,20 +136,6 @@ $(document).ready(function () {
     })
 });
 
-// $('.first_header_slider').owlCarousel({
-//     center: true,
-//     loop: true,
-//     margin: 30,
-//     dots: false,
-//     autoplay: true,
-//     autoplayTimeout: 2000,
-//     autoplayHoverPause: true,
-//     responsive: {
-//         0: {
-//             items: 1,
-//         },
-//     }
-// });
 
 $(document).ready(function () {
     var owl = $('.first_header_slider');

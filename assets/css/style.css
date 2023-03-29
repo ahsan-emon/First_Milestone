@@ -417,8 +417,7 @@ border-radius: 32px;
 /* SWITCH STYLES ––––––––––––––––––––– */
 .switch_wrapper {
   padding: 4px;
-  border: 1px solid lightgrey;
-  background: #12022f30;
+  background: #12022f08;
 }
 .switch_wrapper [type="radio"] {
   position: absolute;
@@ -471,13 +470,18 @@ border-radius: 32px;
   border-radius: 32px;
 }
 .quote_first_s8 .form_send_msg form input{
-  background-color: #E7E5EA;
+  background-color: #F8F8F9;
+  border: none;
   padding: 15px 20px;
+}
+.quote_first_s8 .form_send_msg form input:focus, .quote_first_s8 .form_send_msg form textarea:focus{
+  box-shadow: none;
 }
 .quote_first_s8 .form_send_msg form textarea{
   border-radius: 28px;
   padding: 15px 20px;
-  background-color: #E7E5EA;
+  background-color: #F8F8F9;
+  border: none;
 }
 .quote_first_s8 .form_send_msg form input::placeholder, .quote_first_s8 .form_send_msg form textarea::placeholder{
   color: #12022F50;
