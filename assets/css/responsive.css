@@ -365,4 +365,8 @@
     .img_border{
       padding: 15px;
     }
+    .sign_up_btn {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
 }
