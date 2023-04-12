@@ -105,7 +105,7 @@ $('.quote_slider5').owlCarousel({
         0: {
             items: 1,
         },
-        991: {
+        1024: {
             items: 2,
         }
     }

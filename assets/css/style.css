@@ -479,7 +479,7 @@ border-radius: 32px;
   border-radius: 32px;
 }
 .quote_first_s8 .form_send_msg form input{
-  background-color: #E7E5EA;
+  background-color: #E7E5EA4D;
   border: none;
   padding: 15px 20px;
 }
@@ -489,7 +489,7 @@ border-radius: 32px;
 .quote_first_s8 .form_send_msg form textarea{
   border-radius: 28px;
   padding: 15px 20px;
-  background-color:#E7E5EA;
+  background-color:#E7E5EA4D;
   border: none;
 }
 .quote_first_s8 .form_send_msg form input::placeholder, .quote_first_s8 .form_send_msg form textarea::placeholder{
